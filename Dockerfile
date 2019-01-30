@@ -12,4 +12,4 @@ WORKDIR /code
 
 RUN pip3 install --no-cache-dir -i https://mtg-devpi.sb.upf.edu/asplab/dev/ -r requirements.txt
 
-RUN git clone https://github.com/Rafael-Caro/hindustani-classroom.git
+RUN git clone https://github.com/Rafael-Caro/hindustani-classroom.git source
